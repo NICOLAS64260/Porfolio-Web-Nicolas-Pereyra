@@ -3,7 +3,7 @@ export const Projects = [
       title: "Cotizador con React",
       subtitle: "MERN Stack",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Este cotizador calcula el valor de la propiedad en base a diversos factores tales como la ubicacion y tipo de propiedad",
       image: "./src/img/proyecto1.png",
       link: "https://reactbootcamp.com",
     },
@@ -11,7 +11,7 @@ export const Projects = [
       title: "Tienda Online Con Javascript",
       subtitle: "React and Python",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Esta pagina web es totalmente funcional, renderizando dinamicamente los articulos cargados en la base de datos",
       image: "./src/img/proyecto2.png",
       link: "https://reedbarger.com",
     },
@@ -19,7 +19,7 @@ export const Projects = [
       title: "Pagina Web de perfil institucional",
       subtitle: "Pagina Web de perfil institucional",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Esta pagina web esta pensada para informar del perfil de instituciones a diversos usuarios que busquen esa informacion",
       image: "./src/img/proyecto3.png",
       link: "https://jsbootcamp.com",
     },
@@ -27,7 +27,7 @@ export const Projects = [
       title: "Creaciones de Porfolio",
       subtitle: "React Hooks",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "por ultimo y no menos importante la creacion de porfolio con perfil profesional",
       image: "./src/img/proyecto4.gif",
       link: "https://pythonbootcamp.com",
     },
