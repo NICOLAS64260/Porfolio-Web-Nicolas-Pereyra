@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "../img/profile.jpg"
+import "../bootstrap.min.css"
 
 import "../index.css"
 
@@ -13,11 +14,11 @@ export default function About() {
             <h3 className="heroSubTitulo">UTN de rosario y en la Universidad Nacional de Tres de Febrero <br/>
         </h3>
         <ul className=" heroRedes row justify-content-center text-center">
-                <li className="heroRedesItem col-2"><a href="https://github.com/NICOLAS64260">Github <i
+                <li className="heroRedesItem col-2"><a href="https://github.com/NICOLAS64260"><button type="button" class="btn btn-success">GITHUB</button> <i
                             className="fa-brands fa-github "></i> </a></li>
-                <li className="heroRedesItem col-2"><a href="https://www.linkedin.com/in/nicolas-pereyra-7a3aa7283/">Linkedin
+                <li className="heroRedesItem col-2"><a href="https://www.linkedin.com/in/nicolas-pereyra-7a3aa7283/"><button type="button" class="btn btn-success">LINKEDIN</button>
                         <i className="fa-brands fa-linkedin"></i></a></li>
-                <li className="heroRedesItem col-2"><a href="https://www.instagram.com/">Instagram <i
+                <li className="heroRedesItem col-2"><a href="https://www.instagram.com/"><button type="button" class="btn btn-success">INSTAGRAM</button> <i
                             className="fa-brands fa-instagram "></i></a></li>
                 </ul>
         </div>
@@ -27,3 +28,5 @@ export default function About() {
 </section>
   );
 }
+
+{/* <button type="button" class="btn btn-primary">Primary</button> */}
