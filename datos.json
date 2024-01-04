@@ -1,0 +1,23 @@
+[
+    {
+        "Pais": "Argentina",
+        "categoria": "local"
+    },
+    {
+        "Pais": "Uruguay",
+        "categoria": "extrangero"
+    },
+    {
+        "Pais": "Chile",
+        "categoria": "extrangero"
+    },
+    {
+        "Pais": "Paraguay",
+        "categoria": "extrangero"
+    },
+    {
+        "Pais": "Brazil",
+        "categoria": "extrangero"
+    }
+    
+]

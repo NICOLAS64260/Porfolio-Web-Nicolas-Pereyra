@@ -3,13 +3,17 @@ import Inicio from './pages/inicio'
 import Proyectos from './pages/proyectos'
 import Contacto from './pages/contacto'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import './App.css'
+import './index.css'
+import "./bootstrap.min.css"
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+
+
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Inicio />}></Route>
@@ -18,6 +22,7 @@ function App() {
 
       </Routes>
     </BrowserRouter>
+
     </>
   )
 }
